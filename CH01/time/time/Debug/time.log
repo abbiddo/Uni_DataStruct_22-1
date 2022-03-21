@@ -1,0 +1,3 @@
+﻿  time.c
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH01\time\time\time.c(4,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  time.vcxproj -> C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH01\time\Debug\time.exe
