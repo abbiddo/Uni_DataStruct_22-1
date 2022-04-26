@@ -1,9 +1,0 @@
-﻿  pointer.c
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(18,9): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(18,7): warning C4024: 'func': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(18,13): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(18,11): warning C4024: 'func': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(27,16): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(27,24): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
-C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\pointer\pointer.c(39,35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  pointer.vcxproj -> C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH03\pointer\Debug\pointer.exe

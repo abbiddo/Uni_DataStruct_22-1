@@ -1,0 +1,7 @@
+﻿  simulation.c
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\CH05\simulation.c(14,6): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\CH05\simulation.c(25,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element'입니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\CH05\simulation.c(55,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\CH05\simulation.c(55,12): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\CH05\simulation.c(58,11): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  CH05.vcxproj -> C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\CH05\Debug\CH05.exe
