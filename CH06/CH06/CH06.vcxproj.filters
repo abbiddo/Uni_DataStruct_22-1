@@ -24,5 +24,14 @@
     <ClCompile Include="linked_list_word.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="linked_list_search.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_concat.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list_reverse.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
