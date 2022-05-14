@@ -11,15 +11,18 @@ ListNode* insert_first(ListNode* head, element data) {
 	ListNode* node = (ListNode*)malloc(sizeof(ListNode));
 	node->data = data;
 	if (head == NULL) {
-		node->link = head;
-		head = node;
-
-		/*head = node;
-		head->link = head;*/
-
 		/*head = node;
 		node->link = head;*/
-		// 대입하고 node를 변경하면 head에도 변경값이 반영되나?
+
+		head = node;
+		head->link = head;
+
+		// printf("%p %p\n\n", head->link, node->link);
+		// 대입하고 node를 변경하면 head에도 변경값이 반영되나? 그런가 봄
+
+		/*node->link = head;
+		head = node;*/
+		// 안 됨
 	}
 	else {
 		node->link = head->link;
@@ -33,12 +36,7 @@ ListNode* insert_last(ListNode* head, element data) {
 	node->data = data;
 	if (!head) {
 		head = node;
-		node->link = head;
-
-		/*node->link = head->link;
-		head = node;*/
-
-		// 얘도 순서 무관? 
+		node->link = head;   // 순서 중요
 	}
 	else {
 		node->link = head->link;
@@ -76,10 +74,11 @@ int count_list(ListNode* head) {
 int main() {
 	ListNode* head = NULL;
 
-	head = insert_last(head,20);
+	//head = insert_last(head, 40);
+	head = insert_first(head, 10);
+	head = insert_last(head, 20);
 	head = insert_last(head, 30);
 	head = insert_last(head, 40);
-	head = insert_first(head, 10);
 	print_list(head);
 	printf("\n > element count = %d\n", count_list(head));
 }

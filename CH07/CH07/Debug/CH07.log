@@ -1,2 +1,4 @@
-﻿  circular.c
+﻿  doubly.c
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH07\CH07\doubly.c(26,41): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH07\CH07\doubly.c(37,6): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   CH07.vcxproj -> C:\Users\소영\Desktop\쏭\대학교\2학년 1학기\자료구조\자료구조\CH07\Debug\CH07.exe
