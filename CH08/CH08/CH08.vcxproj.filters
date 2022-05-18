@@ -18,5 +18,17 @@
     <ClCompile Include="tree_base.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="tree_travers_recur.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tree_travers_iter.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tree_travers_level.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tree_evaluate.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
