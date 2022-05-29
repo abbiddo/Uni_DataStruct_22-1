@@ -17,10 +17,13 @@ TreeNode* root = &n7;
 
 int evaluate(TreeNode* root) {
 	if (!root) return 0;
-	if (!root->left && !root->right) return root->data;
+	if (!root->left && !root->right) {
+		printf("<Terminal> %d\n", root->data);
+		return root->data;
+	}
 	int op1 = evaluate(root->left);
 	int op2 = evaluate(root->right);
-	printf("%d %c %d를 계산합니다.\n", op1, root->data, op2);
+	printf("<Non Terminal> %d %c %d를 계산합니다.\n", op1, root->data, op2);
 	switch (root->data) {
 	case '+': return op1 + op2;
 	case '-': return op1 - op2;

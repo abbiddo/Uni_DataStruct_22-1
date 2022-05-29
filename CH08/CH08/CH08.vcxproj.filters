@@ -30,5 +30,17 @@
     <ClCompile Include="tree_evaluate.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="tree_eval_directory.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tree_count.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_tree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search_tree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
