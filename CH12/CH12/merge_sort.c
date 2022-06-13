@@ -9,6 +9,7 @@ void merge(int list[], int left, int mid, int right) {
 	int i = left, j = mid + 1, k = left, l;
 
 	while (i <= mid && j <= right) {
+		// 내림 차순 : >=
 		if (list[i] <= list[j]) sorted[k++] = list[i++];
 		else sorted[k++] = list[j++];
 	}

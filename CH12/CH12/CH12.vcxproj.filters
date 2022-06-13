@@ -30,5 +30,11 @@
     <ClCompile Include="merge_sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="quick_sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="radix_sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
